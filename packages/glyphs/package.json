@@ -1,6 +1,6 @@
 {
   "name": "foundation-design-system-tokens-glyphs",
-  "version": "0.0.1-beta",
+  "version": "0.1.0",
   "description": "foundation design system tokens glyphs",
   "main": "index.js",
   "scripts": {
