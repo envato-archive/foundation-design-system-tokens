@@ -1,9 +1,5 @@
 {
   "devDependencies": {
-    "color": "^0.11.4",
-    "gulp": "^3.9.1",
-    "lodash": "^4.16.6",
-    "theo": "^5.0.0-beta.1",
     "lerna": "2.0.0-beta.30"
   }
 }
