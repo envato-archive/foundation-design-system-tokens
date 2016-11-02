@@ -1,0 +1,8 @@
+---
+  global:
+    category: "tokens"
+  imports:
+    [
+      "./packages/colors/index.yml",
+      "./packages/breakpoints/index.yml"
+    ]
