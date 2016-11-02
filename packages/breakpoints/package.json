@@ -1,6 +1,6 @@
 {
   "name": "foundation-design-system-tokens-breakpoints",
-  "version": "1.0.0",
+  "version": "0.0.1-beta",
   "description": "foundation design system tokens breakpoints",
   "main": "index.js",
   "scripts": {
