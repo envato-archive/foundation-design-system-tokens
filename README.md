@@ -1,5 +1,7 @@
 # Foundation Design System Tokens
-This is a monorepo for all Envato foundation design system tokens build with `lerna.js`.
+Design Tokens are essential particles of a design system, specifically, they are variables that store visual design attributes. They can contain colors (hex, RGBA or other values), sizing units (pixels, rems, etc.) and many more. They're essential for creating and maintaing a consistent visual system.
+
+This is a monorepository for all Envato [Foundation Design System](https://github.com/envato/foundation-design-system) tokens build with `lerna.js`.
 
 | Package | Version |
 |--------|-------|
@@ -10,20 +12,20 @@ This is a monorepo for all Envato foundation design system tokens build with `le
 | [`foundation-design-system-tokens-breakpoints`](/packages/breakpoints) | [![npm](https://img.shields.io/npm/v/foundation-design-system-tokens-breakpoints.svg?maxAge=2592000)](https://www.npmjs.com/package/foundation-design-system-tokens-breakpoints) |
 | [`foundation-design-system-tokens-spacing`](/packages/spacing) | [![npm](https://img.shields.io/npm/v/foundation-design-system-tokens-spacing.svg?maxAge=2592000)](https://www.npmjs.com/package/foundation-design-system-tokens-spacing) |
 
-### Usage
-To install all the tokens from design system
+## Usage
+To install all the tokens from the Foundation Design System:
 
 ```sh
 $ npm i foundation-design-system-tokens
 ```
 
-To only install the `colors` token from the design system
+To install only the `colors` tokens from the Foundation Design System:
 
 ```sh
 $ npm i foundation-design-system-tokens-colors
 ```
 
-Each package includes a `.css`, `.js`, `.sass`, `.scss` you can import in your project.
+Each package includes a `.css`, `.js`, `.sass`, `.scss` that can be imported in your projects:
 
 ```js
 import('foundation-design-system-tokens-colors/dist/')
@@ -35,36 +37,40 @@ or
 @import "foundation-design-system-tokens-colors/dist/index.css";
 ```
 
-### Development
-Make sure you have `lerna.js` installed globally by `npm install --global lerna@^2.0.0-beta`
+## Development
+Make sure you have `lerna.js` installed globally:
 
-To install all dependencies for all packages.
+```sh
+npm install --global lerna@^2.0.0-beta
+```
+
+Install dependencies for all packages:
 
 ```sh
 $ lerna bootstrap
 ```
 
-To build target style files from tokens.
+To build target style files from tokens run:
 
 ```sh
 $ lerna run build
 ```
 
-### Publish pacakge(s) to NPM
+## Publishing pacakge(s) to NPM
 
-To publish a version for all packages
+To publish a version for all packages run:
 
 ```sh
 $ lerna publish
 ```
 
-**Note:** When you make changes to one of the packages, Lerna.js will auto detect which version has been updated and only prompt you to bump the version of that particular package.
+**Note:** When you make changes to one of the packages, `lerna.js` will auto detect which version has been updated and only prompt you to bump the version of that particular package.
 
-To publish a `beta` version for packages
+To publish a `beta` version for packages run:
 
 ```sh
 $ lerna publish --npm-tag=beta
 ```
 
-### License
+## License
 MIT
