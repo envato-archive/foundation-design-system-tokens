@@ -61,7 +61,7 @@ $ lerna run build
 To publish a version for all packages run:
 
 ```sh
-$ lerna publish --access public
+$ lerna publish
 ```
 
 **Note:** When you make changes to one of the packages, `lerna.js` will auto detect which version has been updated and only prompt you to bump the version of that particular package.
@@ -70,6 +70,14 @@ To publish a `beta` version for packages run:
 
 ```sh
 $ lerna publish --npm-tag=beta
+```
+
+To publish a scoped package as public, you need to add the following into the package.json in each package.
+
+```
+"publishConfig": {
+  "access": "public"
+}
 ```
 
 ## License
