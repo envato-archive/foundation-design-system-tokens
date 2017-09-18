@@ -1,8 +1,5 @@
 {
   "lerna": "2.2.0",
   "version": "independent",
-  "packages": ["packages/*"],
-  "publishConfig": {
-    "access": "public"
-  }
+  "packages": ["packages/*"]
 }
