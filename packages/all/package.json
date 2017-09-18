@@ -1,13 +1,17 @@
 {
   "name": "@envato/foundation-design-system-tokens",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "foundation design system tokens",
   "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": ["dist"],
-  "keywords": ["token"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "token"
+  ],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {
