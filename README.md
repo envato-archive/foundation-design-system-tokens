@@ -28,13 +28,13 @@ $ npm i @envato/foundation-design-system-tokens-colors
 Each package includes a `.css`, `.js`, `.sass`, `.scss` that can be imported in your projects:
 
 ```js
-import('foundation-design-system-tokens-colors/')
+import('@envato/foundation-design-system-tokens-colors/')
 ```
 
 or
 
 ```css
-@import "foundation-design-system-tokens-colors/dist/index.css";
+@import "@envato/foundation-design-system-tokens-colors/dist/index.css";
 ```
 
 ## Development
