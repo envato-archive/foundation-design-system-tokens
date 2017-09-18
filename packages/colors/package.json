@@ -1,17 +1,13 @@
 {
-  "name": "foundation-design-system-tokens-colors",
+  "name": "@envato/foundation-design-system-tokens-colors",
   "version": "0.1.0",
   "description": "foundation design system tokens colors",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "colors"
-  ],
+  "files": ["dist"],
+  "keywords": ["colors"],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {

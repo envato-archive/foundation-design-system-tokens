@@ -1,17 +1,13 @@
 {
-  "name": "foundation-design-system-tokens-breakpoints",
+  "name": "@envato/foundation-design-system-tokens-breakpoints",
   "version": "0.1.0",
   "description": "foundation design system tokens breakpoints",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "breakpoints"
-  ],
+  "files": ["dist"],
+  "keywords": ["breakpoints"],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {

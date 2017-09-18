@@ -1,17 +1,13 @@
 {
-  "name": "foundation-design-system-tokens-glyphs",
+  "name": "@envato/foundation-design-system-tokens-glyphs",
   "version": "0.1.0",
   "description": "foundation design system tokens glyphs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "glyphs"
-  ],
+  "files": ["dist"],
+  "keywords": ["glyphs"],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {

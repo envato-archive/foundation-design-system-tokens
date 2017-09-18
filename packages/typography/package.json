@@ -1,17 +1,13 @@
 {
-  "name": "foundation-design-system-tokens-typography",
+  "name": "@envato/foundation-design-system-tokens-typography",
   "version": "0.1.0",
   "description": "foundation design system tokens typography",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "typography"
-  ],
+  "files": ["dist"],
+  "keywords": ["typography"],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {

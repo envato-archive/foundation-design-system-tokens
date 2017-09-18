@@ -1,17 +1,13 @@
 {
-  "name": "foundation-design-system-tokens-spacing",
+  "name": "@envato/foundation-design-system-tokens-spacing",
   "version": "0.1.0",
   "description": "foundation design system tokens spacing",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "gulp"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "spacing"
-  ],
+  "files": ["dist"],
+  "keywords": ["spacing"],
   "author": "Envato Market Foundation Team",
   "license": "MIT",
   "devDependencies": {
