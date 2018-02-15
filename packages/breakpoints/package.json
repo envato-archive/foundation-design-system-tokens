@@ -1,6 +1,6 @@
 {
   "name": "@envato/foundation-design-system-tokens-breakpoints",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "foundation design system tokens breakpoints",
   "main": "dist/index.js",
   "scripts": {
