@@ -17,5 +17,8 @@
     breakpoint--xl:
       value: "1152px"
       type: "breakpoint"
+    breakpoint--xxl:
+      value: "1408px"
+      type: "breakpoint"
 
 ```
